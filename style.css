@@ -1,0 +1,49 @@
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: rgb(215, 227, 246);
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    width: 300px;
+    padding: 1rem;
+    border-radius: 10px;
+    background: white;
+}
+
+.card__image img{
+    border-radius: 10px;
+    width: 300px;
+}
+
+.card__title{
+    text-align: center;
+}
+
+.card__body{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
